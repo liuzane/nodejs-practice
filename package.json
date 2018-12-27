@@ -1,0 +1,9 @@
+{
+  "name": "hello",
+  "bin": {
+    "hello": "hello"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  }
+}
