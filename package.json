@@ -1,9 +1,13 @@
 {
   "name": "hello",
   "bin": {
-    "hello": "hello"
+    "hello": "bin/hello.js"
+  },
+  "scripts": {
+    "test": "node scripts/test"
   },
   "dependencies": {
+    "commander": "^2.19.0",
     "inquirer": "^6.2.1"
   }
 }
