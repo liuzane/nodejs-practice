@@ -4,7 +4,8 @@
     "hello": "bin/hello.js"
   },
   "scripts": {
-    "test": "node scripts/test"
+    "test": "node scripts/test",
+    "create": "node scripts/createFileTemplate"
   },
   "dependencies": {
     "commander": "^2.19.0",
