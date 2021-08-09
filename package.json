@@ -5,10 +5,16 @@
   },
   "scripts": {
     "test": "node scripts/test",
-    "create": "node scripts/createFileTemplate"
+    "create": "node scripts/createFileTemplate",
+    "hello": "node scripts/hello-node",
+    "events": "node scripts/events"
   },
   "dependencies": {
-    "commander": "^2.19.0",
-    "inquirer": "^6.2.1"
+    "commander": "^8.1.0",
+    "elasticsearch": "^16.7.2",
+    "events": "^3.3.0",
+    "inquirer": "^8.1.2",
+    "mysql": "^2.18.1",
+    "querystring": "^0.2.1"
   }
 }
